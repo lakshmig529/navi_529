@@ -1,0 +1,7 @@
+sources:
+    - name:my_first_dbt_model
+      database: "{{('db')}}"
+      schema:sh
+      tables:
+        - name: raw_payments
+        
