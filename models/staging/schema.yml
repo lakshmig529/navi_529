@@ -1,7 +1,10 @@
+version: 2
 sources:
-    - name:my_first_dbt_model
+    - name: datafeed_shared_schema
       database: "{{('db')}}"
-      schema:sh
+      schema: sh
       tables:
+        - name: orders
         - name: raw_payments
-        
+        - name: customer
+        - name: suppies
